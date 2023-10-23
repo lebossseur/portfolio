@@ -54,6 +54,23 @@ ul li {
     padding: 30px;
     letter-spacing: 1px;
     font-size: 0.9rem;
+    cursor: pointer;
+    position: relative;
+
+}
+
+ul li:hover:before {
+
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    background: #c92bd4cc;
+    transform: translateY(20px);
+    text-align: center;
+
+
+
 
 }
 
