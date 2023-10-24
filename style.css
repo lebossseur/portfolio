@@ -7,6 +7,9 @@
     color: whitesmoke;
 }
 
+a {
+    text-decoration: none;
+}
 
 body {
     background: #413c3c;
@@ -123,7 +126,7 @@ ul li:hover {
 
 }
 
-.button {
+.main-btn {
     margin: 30px;
     display: flex;
     justify-content: space-around;
@@ -131,22 +134,37 @@ ul li:hover {
 
 }
 
-button {
-    width: 200px;
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
-    color: black;
-    font-weight: bold;
-    font-size: 1rem;
-
-
-}
-
-button :first-child {
+.btn {
+    display: inline-block;
+    padding: 11px 26px;
     background: whitesmoke;
+    color: #252222;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.50s ease;
+
+
+
 }
 
-button :last-child {
+.btn:hover {
     background: #D42B2B;
+    color: #252222;
+
+}
+
+
+
+.btn2 {
+    background: #D42B2B;
+    color: whitesmoke;
+
+}
+
+.btn2:hover {
+    background: whitesmoke;
+    color: black;
+
 }
