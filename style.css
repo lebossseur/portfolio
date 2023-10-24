@@ -12,7 +12,7 @@ a {
 }
 
 body {
-    background: #413c3c;
+    background: #1c1919;
     /*292525 */
 
     font-family: "Roboto", sans-serif;
@@ -62,13 +62,15 @@ ul li {
 
 }
 
+
+
 ul li:hover:before {
 
     content: "";
     position: absolute;
     width: 50%;
-    height: 5px;
-    background: #c92bd4cc;
+    height: 1px;
+    background: #f2f2f2cc;
     transform: translateY(20px);
     text-align: center;
 
@@ -85,6 +87,7 @@ ul li:hover {
 
 .infos {
     /* background: white; */
+    display: flex;
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -167,4 +170,18 @@ ul li:hover {
     background: whitesmoke;
     color: black;
 
+}
+
+.icons fa-brands {
+
+    color: whitesmoke;
+}
+
+
+.infos-right {
+    width: 50%;
+}
+
+.tof img {
+    width: 100%;
 }
