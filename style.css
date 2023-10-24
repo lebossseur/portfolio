@@ -64,7 +64,7 @@ ul li {
 
 
 
-ul li:hover:before {
+ul li a:hover:before {
 
     content: "";
     position: absolute;
@@ -79,7 +79,7 @@ ul li:hover:before {
 
 }
 
-ul li:hover {
+ul li a:hover {
     color: #D42B2B;
     transition: 0.5s ease;
 
@@ -89,7 +89,7 @@ ul li:hover {
     /* background: white; */
     display: flex;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .infos-left {
@@ -172,9 +172,18 @@ ul li:hover {
 
 }
 
-.icons fa-brands {
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
 
-    color: whitesmoke;
+}
+
+.icons i {
+
+    font-size: 2rem;
+    margin: 25px;
 }
 
 
