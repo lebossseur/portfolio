@@ -92,7 +92,10 @@ ul li a:hover {
     transition: 0.5s ease;
 
 }
+.info-container{
 
+    position: relative;
+}
 .infos h3 {
     color: beige;
     margin:50px auto 10px;
@@ -128,15 +131,29 @@ ul li a:hover {
     color: aliceblue;
     margin: 50px 50px;
     padding: 50px 50px;
-    border: 1px solid rgba(27, 18, 18, 0.445);
+    border: 1px solid rgba(26, 21, 21, 0.445);
     text-align: center;
-    background: #333131;
+    background: #1f1e1e;
+}
+
+.card:hover{
+
+transform: translateY(-20px);
+
+
 }
 
 .card h2{
 padding: 20px 30px;
+color: #020101;
 
 }
+
+.card p{
+
+    padding: 20px;
+}
+
 
 i{
     color: #D42B2B;

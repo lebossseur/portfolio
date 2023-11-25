@@ -125,6 +125,7 @@ margin:50px auto 10px;
 
 .main-left{
     text-align: center;  
+    
 }
 
 .main-left h2{
@@ -157,7 +158,15 @@ margin:50px auto 10px;
     border-radius: 1px solid black;
     background: #D42B2B;
     border-radius: 20px;
+  
     
+}
+
+
+.main-left a:hover{
+
+   background: black;
+   color: #D42B2B;
 }
 
 .main-right img{
